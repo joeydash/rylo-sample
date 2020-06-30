@@ -143,3 +143,12 @@ section {
 .hero p {
   margin-bottom: var(--margin-md);
 }
+
+/* ====== Service Section ====== */
+.section-service {
+  background-color: var(--colour-grey-light);
+}
+
+.section-service .col-12:first-child {
+  margin-bottom: var(--margin-lg);
+}
