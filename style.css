@@ -121,3 +121,25 @@ section {
 .btn-wrapper .btn:first-child {
   margin-right: var(--margin-xs);
 }
+
+/* ====== Hero ====== */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #fdded8;
+}
+
+.hero-title {
+  margin-bottom: var(--margin-md);
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.hero p {
+  margin-bottom: var(--margin-md);
+}
