@@ -61,3 +61,63 @@ p {
 section {
   padding: 80px 0;
 }
+
+/* ====== Heading Style ====== */
+.heading-2 {
+  margin-bottom: var(--margin-md);
+  font-size: 34px;
+  line-height: 1.0588235294;
+  letter-spacing: -0.03em;
+}
+
+.heading-3 {
+  margin-bottom: var(--margin-sm);
+  font-size: 22px;
+  line-height: 1.3636363636;
+  letter-spacing: -0.04em;
+}
+
+.section-category {
+  display: block;
+  margin-bottom: var(--margin-xs);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* ====== Button Style ====== */
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 48px;
+  padding: 16px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: -0.05em;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--colour-primary);
+  transition: background-color 0.25s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #6773da;
+}
+
+.inverted {
+  color: var(--colour-primary);
+  background-color: #fff;
+}
+
+.inverted:hover {
+  color: #fff;
+  background-color: var(--colour-primary);
+}
+
+.btn-wrapper .btn:first-child {
+  margin-right: var(--margin-xs);
+}
