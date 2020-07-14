@@ -277,3 +277,18 @@ section {
   color: var(--colour-primary);
   text-decoration: underline;
 }
+
+/* ====== Footer ====== */
+.footer-links {
+  padding: 24px 0;
+}
+
+.footer-links li:not(:last-child) {
+  margin-bottom: var(--margin-xs);
+}
+
+.footer-links a {
+  font-size: 14px;
+  line-height: 1.7142857143;
+  color: var(--colour-grey);
+}
