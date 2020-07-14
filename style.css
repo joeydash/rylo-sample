@@ -292,3 +292,184 @@ section {
   line-height: 1.7142857143;
   color: var(--colour-grey);
 }
+
+/* ====== >= 768px ====== */
+@media screen and (min-width: 768px) {
+  p {
+    font-size: 22px;
+    line-height: 1.4545454545;
+  }
+
+  /* ====== Utilities ====== */
+  .heading-2 {
+    margin-bottom: var(--margin-ml);
+    font-size: 56px;
+    line-height: 1;
+  }
+
+  .heading-3 {
+    margin-bottom: var(--margin-sm);
+    font-size: 26px;
+    line-height: 1.3076923077;
+  }
+
+  .section-category {
+    margin-bottom: var(--margin-sm);
+    font-size: 22px;
+    line-height: 1.0909090909;
+  }
+
+  .btn {
+    width: 160px;
+    height: 56px;
+    padding: 0 12px;
+    font-size: 18px;
+    line-height: 1.5555555556;
+    letter-spacing: -0.05em;
+  }
+
+  .btn-wrapper .btn:first-child {
+    margin-right: calc(var(--margin-xs) * 2);
+  }
+
+  /* ====== Hero ====== */
+  .hero {
+    height: auto;
+    padding: 120px 0;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 1.0285714286;
+  }
+
+  .hero p {
+    margin: var(--margin-ml) 0;
+  }
+
+  /* ====== Service Section ====== */
+  .section-service .col-12:first-child {
+    margin-bottom: 0;
+  }
+
+  /* ====== Program Section ====== */
+  .section-program {
+    padding: 80px 0 96px;
+    text-align: center;
+  }
+
+  .section-program .row:first-child {
+    margin-bottom: 72px;
+  }
+
+  /* Except for the last program card */
+  .section-program .col-md-4:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .program-card img {
+    margin-bottom: var(--margin-md);
+  }
+
+  .program-card h3 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  /* ====== Curriculum Section ====== */
+  .section-curriculum {
+    padding: 80px 0 96px;
+  }
+
+  .section-curriculum .row:first-child {
+    margin-bottom: 24px;
+  }
+
+  .curriculum-desc {
+    margin-bottom: 72px;
+  }
+
+  .curriculum-image {
+    display: block;
+  }
+
+  .curriculum-image img {
+    display: block;
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+  }
+
+  /* First curriculum detail description */
+  .section-curriculum .row:last-child .col-12:first-child {
+    margin-bottom: 0;
+  }
+
+  .curriculum-detail-desc {
+    font-size: 18px;
+    line-height: 1.4444444444;
+  }
+
+  /* ====== Subscription Section ====== */
+  .section-subscription {
+    padding: 80px 0;
+    text-align: left;
+  }
+
+  .subscription-title {
+    font-size: 40px;
+  }
+
+  .subscription-image {
+    padding: 8px 0;
+    margin-bottom: 0;
+  }
+
+  .subscription-image img {
+    margin-left: 0;
+    height: 285px;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+
+  .form-group input {
+    padding: 16px;
+    margin-right: var(--margin-xs);
+    font-size: 18px;
+    line-height: 1.3333333333;
+  }
+
+  .form-group button {
+    flex: 0 0 160px;
+    margin: 0;
+  }
+
+  .subscription-misc {
+    font-size: 14px;
+    line-height: 1.7142857143;
+  }
+  /* ====== Footer ====== */
+  .footer-links {
+    display: flex;
+    padding: 16px 0;
+  }
+
+  .footer-links li:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .footer-links a {
+    margin-right: 16px;
+  }
+}
+
+/* Custom Grid System - Fix container width */
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
