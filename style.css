@@ -152,3 +152,51 @@ section {
 .section-service .col-12:first-child {
   margin-bottom: var(--margin-lg);
 }
+
+/* ====== Program Section ====== */
+.section-program .section-category {
+  color: var(--colour-green);
+}
+
+.section-program .row:first-child {
+  margin-bottom: var(--margin-ml);
+}
+
+.program-card {
+  display: block;
+  padding: 24px 0 32px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.25s ease-in-out;
+}
+
+/* Except for the last program card */
+.section-program .col-md-4:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.program-card:hover {
+  transform: translateY(-4px);
+  background-color: #3141c5;
+  box-shadow: 0 11px 55px rgba(0, 0, 0, 0.07), 0 13px 18px rgba(0, 0, 0, 0.15);
+}
+
+.program-card:hover h3 {
+  color: #fff;
+}
+
+.program-card img {
+  display: block;
+  width: auto;
+  height: 195px;
+  margin: 0 auto var(--margin-sm);
+}
+
+.program-card h3 {
+  font-size: 18px;
+  line-height: 1.3333333333;
+  letter-spacing: -0.02em;
+  transition: color 0.4s ease-in-out;
+}
