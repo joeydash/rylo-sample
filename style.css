@@ -200,3 +200,25 @@ section {
   letter-spacing: -0.02em;
   transition: color 0.4s ease-in-out;
 }
+
+/* ====== Curriculum Section ====== */
+.section-curriculum .section-category {
+  color: var(--colour-blue);
+}
+
+.section-curriculum .row:first-child {
+  margin-bottom: var(--margin-xl);
+}
+
+.curriculum-desc {
+  margin-bottom: var(--margin-ml);
+}
+
+.curriculum-image {
+  display: none;
+}
+
+/* First curriculum detail description */
+.section-curriculum .row:last-child .col-12:first-child {
+  margin-bottom: var(--margin-lg);
+}
